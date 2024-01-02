@@ -28,7 +28,6 @@ public class ShapeMain {
          System.out.println("Perhitungan Luas Persegi Panjang");
          System.out.println("=========================");
          System.out.println("Masukkan warna Persegi Panjang");
-         scanner.nextLine();
          String colorRectangle = scanner.nextLine();
          System.out.println("Masukkan Panjang Persegi Panjang ");
          double length = scanner.nextDouble();

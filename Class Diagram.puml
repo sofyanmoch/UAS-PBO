@@ -1,0 +1,31 @@
+@startuml
+
+class Shape {
+  -color: String
+  +Shape(color: String)
+  +getColor(): String
+  +getArea(): double
+}
+
+class Circle {
+  -radius: double
+  +Circle(color: String, radius: double)
+  +getArea(): double
+}
+
+class Rectangle {
+  -length: double
+  -width: double
+  +Rectangle(color: String, length: double, width: double)
+  +getArea(): double
+}
+
+class ShapeMain {
+  +main(args: String[]): void
+}
+
+
+Shape <|-- Circle
+Shape <|-- Rectangle
+
+@enduml
